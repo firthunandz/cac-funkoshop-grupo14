@@ -1,0 +1,185 @@
+/* header */
+
+header {position: absolute;
+    width: 1440px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+}
+   
+/* Rectangle 4 */
+
+#rectangle-4 {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #30343F;
+}
+
+/* Frame */
+#frame { position: absolute;
+
+    right: 66.53%;
+
+    bottom: 27.64%;
+    width: 372px;
+height: 65.19194793701172px;
+top: 39px;
+left: 110px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20.84px;
+    }
+
+/* SvgjsG8619 icono */
+
+.SvgjsG8619 {
+    position: absolute;
+    left: 0%;
+    right: 78.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* Funkoshop */
+.SvgjsG8620 {
+    position: absolute;
+    left: 27.17%;
+    right: 0%;
+    top: 27.17%;
+    bottom: 26.34%; 
+}     
+
+/* Group 4 */
+
+#group4 { position: absolute;
+left: 64.17%;
+right: 7.64%;
+top: 37.5%;
+bottom: 40.97%;
+}
+
+/* Group 107 */
+
+#group107 {position: absolute;
+width: 72.46px;
+height: 23px;
+left: 924px;
+top: 59px;
+}
+
+/* SHOP */
+
+#shop {position: absolute;
+left: 64.17%;
+right: 32.01%;
+top: 40.97%;
+bottom: 43.06%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+/* Vector 1 (Stroke) */
+
+#stroke {position: absolute;
+left: 68.39%;
+right: 31.01%;
+top: 52.99%;
+bottom: 38.96%;
+
+background: #FFFFFF;
+transform: rotate(-90deg);
+}
+
+/* LOGIN */
+
+#login {position: absolute;
+left: 82.36%;
+right: 13.33%;
+top: 40.97%;
+bottom: 43.06%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+/* CONTACTO */
+
+#contacto {position: absolute;
+left: 71.39%;
+right: 21.04%;
+top: 40.97%;
+bottom: 43.06%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+/* cart-icon */
+#cart-icon {position: absolute;
+left: 90.07%;
+right: 7.64%;
+top: 37.5%;
+bottom: 40.97%;
+}
+
+
+/*Footer Rectangle 4 */
+#footer-rectangle4{
+position: absolute;
+right: 0%;
+bottom: 0%;
+background: #30343F;
+width: 1440px;
+height: 343px;
+top: 3091px;
+left: -13px;
+}
+
+/* Group */
+#group5 {position: absolute;
+left: 0%;
+right: 78.43%;
+top: 0%;
+bottom: 0%;
+}
+
+#foot-text{
+    width: 411px;
+height: 23px;
+top: 297px;
+left: 524px;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#footersvg{
+    width: 143px;
+    height: 116.1888656616211px;
+    top: 124px;
+    left: 1187px;
+}
+
