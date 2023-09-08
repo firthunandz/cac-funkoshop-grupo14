@@ -1,0 +1,97 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #30343F;
+}
+
+header picture{
+    width: 40%;
+    padding: 50px 110px;
+}
+
+header .container{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 110px;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+#banner{
+    width: 100%;
+    height: 388px;
+    background-image: url(../multimedia/branding/funkos-banner.webp);
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-size: 100%;
+}
+
+#banner div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 110px;
+    padding-left: 105px;
+    color: #FFFFFF;
+}
+
+#banner div h2{
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin: 0;  
+}
+
+#banner div p{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin: 0;
+}
+
+#banner div button{
+    width: 210px;
+    border-radius: 50px;
+    align-items: flex-end;
+}
+
+#home {
+    width: 1200px;
+    height: 800px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#home .home starwars{
+    grid-area: starwars;
+    grid-template-columns: 1/3;
+}
+
+#home .home pokemon{
+    grid-area: pokemon;
+    grid-template-columns: 1/3;
+}
+
+#home .home harrypotter{
+    grid-area: harrypotter;
+    grid-template-columns: 1/3;
+}
+
+#home .ultimos-lanzamientos{
+    grid-area: ultimos-lanzamientos;
+    grid-template-columns: 1/6;
+}
