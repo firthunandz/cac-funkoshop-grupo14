@@ -66,32 +66,102 @@ header .container{
     align-items: flex-end;
 }
 
-#home {
-    width: 1200px;
-    height: 800px;
+.grid-container{
     display: grid;
-    place-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
 }
 
-#home .home starwars{
-    grid-area: starwars;
-    grid-template-columns: 1/3;
+.grid-item-1{
+    grid-column: 1/2;
+    grid-row: 1;
 }
 
-#home .home pokemon{
-    grid-area: pokemon;
-    grid-template-columns: 1/3;
+.grid-item-2{
+    grid-column: 2/3;
+    grid-row: 1;
 }
 
-#home .home harrypotter{
-    grid-area: harrypotter;
-    grid-template-columns: 1/3;
+.grid-item-3{
+    grid-column: 1/2;
+    grid-row: 2;
 }
 
-#home .ultimos-lanzamientos{
-    grid-area: ultimos-lanzamientos;
-    grid-template-columns: 1/6;
+.grid-item-4{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.grid-item-5{
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+.grid-item-6{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+.ultimos-lanzamientos{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 5% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.ultimos-lanzamientos h2{
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.card1{
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+.card2{
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+.card3{
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+.nuevo{
+    background-color: red;
+    margin-left: 45%;
+    margin-right: 45%; 
+}
+
+footer{
+    width: 100%;
+    background-color: #30343F;
+    color: #FFFFFF;
+}
+
+footer a{
+    color:#FFFFFF
+}
+
+footer article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .copyright{
+    text-align: center;
 }
