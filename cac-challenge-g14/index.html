@@ -4,37 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Integrador - Funkoshop</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <nav>
-            <picture>
-                <a href="index.html">
+        <nav class="head container">
+            <picture class="head__logo">
+                <a href="index.html" class="head__link">
                     <img src="./multimedia/branding/logo_light_horizontal.svg" alt="Logo funkoshop">
                 </a>
             </picture>
-            <ul>
-                <li>
-                    <a href="./shop.html">SHOP</a>
+            <ul class="head__menu">
+                <li class="head__item with-submenu">
+                    <a href="./shop.html" class="head__link with-icon">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Funkos</a>                            
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Remeras</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Llaveros</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="#">CONTACTO</a>
+                <li class="head__item">
+                    <a href="#" class="head__link">CONTACTO</a>
                 </li>
-                <li>
-                    <a href="./login.html">LOGIN</a>
+                <li class="head__item">
+                    <a href="./login.html" class="head__link">LOGIN</a>
                 </li>
-                <li>
-                    <a href="./carrito.html">Carro</a>
+                <li class="head__item">
+                    <a href="./carrito.html" class="head__cart">
+                        <img src="./multimedia/icons/cart-icon.svg" alt="Icono carro de compras">
+                    </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <article>
-            <h2>Nuevos Ingresos</h2>
-            <p>Descubrí el próximo Funko Pop de tu colección</p>
-            <a href="shop.html">SHOP</a>
+    <section class="hero">
+        <article class="hero container">
+            <h2 class="hero__title">Nuevos Ingresos</h2>
+            <p class="hero__p">Descubrí el próximo Funko Pop de tu colección</p>
+            <a href="shop.html" class="hero__shop">SHOP</a>
         </article>
     </section>
     <main>
@@ -152,5 +165,6 @@
         </section> 
         <p class="copyright">All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 </body>
 </html>
