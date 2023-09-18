@@ -354,6 +354,88 @@ footer{
     text-align: center;
 }
 
+/* SHOP PAGE */
+
+.shop-page{
+    margin-top: var(--spacing-36);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: var(--spacing-8);
+}
+
+/* ASIDE */
+
+.aside{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-12);
+}
+
+.aside__input{
+    border-color: var(--dark-bg-solid);
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.aside__text{
+    font-size: var(--font-large);
+    font-weight: 500;
+}
+
+.aside__text2{
+    font-size: var(--font-medium);
+    font-weight: 500;
+}
+
+.aside__item1{
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-8);
+}
+
+.input__item1{
+    width: var(--spacing-36);
+}
+
+.aside__item2{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.aside__item2--checkbox{
+    display: inline-block;
+    align-items: center;
+}
+
+/* SHOP LIST */
+
+.shop-list{
+    grid-column: 2/3;
+}
+
+/* PAGINATION */
+
+.pagination{
+    margin-bottom: var(--spacing-36);
+}
+
+.pagination__content{
+    display: flex;
+    gap: var(--spacing-8);
+    justify-content: center;
+    font-size: var(--font-small);
+    font-weight: 700;
+}
+
+.pagination__item{
+    border: 1px #DFE3E8 solid;
+    border-radius: 4px;
+    padding: var(--spacing-8);
+}
+
+
 /* ANIMATIONS */
 
 @keyframes fade {
