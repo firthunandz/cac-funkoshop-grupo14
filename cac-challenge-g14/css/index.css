@@ -530,6 +530,127 @@ footer{
     margin-bottom: var(--spacing-36);
 }
 
+/* CART */
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-36);
+    margin: var(--spacing-68) auto;
+}
+
+.cart__title{
+    align-self: start;
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 700;
+    border-bottom: 5px var(--primary-solid) solid;
+}
+
+.cart__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    border: 2px #FAFAFF solid;
+    border-radius: 10px;
+    padding: var(--spacing-8) var(--spacing-12);
+}
+
+.cart__header--text{
+    font-size: var(--font-small);
+    font-weight: 700;
+}
+
+.cart__content{
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-16) var(--spacing-16);
+    justify-content: space-between;
+    gap: var(--spacing-128);
+    border: 2px #FAFAFF solid;
+}
+
+.cart__item{
+    display: flex;
+    gap: var(--spacing-16);
+    align-items: center;
+}
+
+.cart__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__name{
+    font-size: var(--font-large);
+    font-weight: 700;
+}
+
+.cart__licence{
+    font-size: var(--font-xsmall);
+    font-weight: 500;
+}
+
+.cart__price{
+    font-size: var(--font-xsmall);
+    font-weight: 400;
+}
+
+.cart__input{
+    width: var(--spacing-68);
+}
+
+.cart__totalprice{
+    font-size: var(--font-medium);
+    font-weight: 400;
+}
+
+.cart__delete{
+    color: var(--primary-solid)
+}
+
+.cart__resume{
+    align-self: end;
+}
+
+.resume__title{
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 700;
+    border-bottom: 5px var(--primary-solid) solid;
+    margin-bottom: var(--spacing-20);
+}
+
+.resume__items{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-20);
+}
+
+.resume__item{
+    display: flex;
+    gap: var(--spacing-128);
+    justify-content: space-between;
+}
+
+.resume__total{
+    border-top: var(--primary-solid) 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume__link{
+    background-color: var(--primary-solid);
+    color: var(--ligh-bg-solid);
+    text-align: center;
+    font-size: var(--font-xlarge);
+    font-weight: 700;
+    padding: var(--spacing-12);
+}
+
+
+
 /* ANIMATIONS */
 
 @keyframes fade {
