@@ -649,7 +649,9 @@ footer{
     padding: var(--spacing-12);
 }
 
-.login__form{
+/* LOGIN AND REGISTER */
+
+.form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -657,43 +659,47 @@ footer{
     margin: var(--spacing-36) auto;
 }
 
-.login__title{
+.form__title{
     font-family: var(--alternative-font);
     font-size: var(--font-jumbo);
     font-weight: 700;
 }
 
-.login__item1{
+.form__subtitle{
+    font-size: var(--font-large);
+    font-weight: 500;
+}
+
+.form__item1{
     display: flex;
     gap: var(--spacing-68);
     justify-content: space-between;
 }
 
-.login__item2{
+.form__item2{
     display: flex;
     gap: var(--spacing-20);
     justify-content: space-between;
 }
 
-.login__item3{
+.form__item3{
     display: flex;
     justify-content: space-around;
     gap: var(--spacing-36);
     align-items: center;
 }
 
-
-.login__text{
+.form__text{
     font-size: var(--font-large);
     font-weight: 400;
 }
 
-.login__input{
+.form__input{
     border-style: none;
     border-bottom: var(--primary-solid) 2px solid;
 }
 
-.login__log{
+.form__button{
     background-color: var(--primary-solid);
     color: var(--ligh-bg-solid);
     padding: var(--spacing-12) var(--spacing-36);
@@ -701,27 +707,35 @@ footer{
     font-weight: 200;
 }
 
-.login__subitem{
+.form__subitem{
     display: flex;
     gap: var(--spacing-8);
 }
 
-.login__checkbox{
+.form__checkbox{
     border: 2px var(--dark-solid) solid;
     border-radius: 3px;
 }
 
-.login__remindme{
+.form__remindme{
     font-size: var(--font-medium);
     font-weight: 400;
 }
 
-.login__forgotpw{
+.form__forgotpw{
     font-size: var(--font-xsmall);
     font-weight: 400;
     color: var(--secondary-solid);
 }
 
+.form__terms{
+    font-size: var(--font-xsmall);
+    font-weight: 400;
+}
+
+.terms{
+    color: var(--secondary-solid);
+}
 
 
 /* ANIMATIONS */
