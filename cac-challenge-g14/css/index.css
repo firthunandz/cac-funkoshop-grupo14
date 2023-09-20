@@ -807,6 +807,33 @@ footer{
     height: 3rem;
 }
 
+/* CREATE ITEM */
+
+.create{
+    margin: var(--spacing-36) auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-28);
+}
+
+.create__item{
+    display: flex;
+    gap: var(--spacing-20);
+    align-items: center;
+}
+
+.create__item--text{
+    font-size: var(--font-large);
+    font-weight: 300;
+}
+
+.create__textarea{
+    height: 10em;
+    width: 50%;
+    resize: none;
+}
+
+
 
 
 /* ANIMATIONS */
