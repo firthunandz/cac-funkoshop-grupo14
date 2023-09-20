@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Integrador - Funkoshop</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -45,23 +45,25 @@
         </nav>
     </header>
     <!-- LOGIN FORM -->
-        <main>            
-            <form>
-                <h1>INGRESAR A MI CUENTA</h1>
-                <article>                    
-                    <P>Email:</P>
-                    <input type="email">
+        <main class="login container">            
+            <form class="login__form">
+                <h1 class="login__title">INGRESAR A MI CUENTA</h1>
+                <article class="login__item1">                    
+                    <p class="login__text">Email:</p>
+                    <input class="login__input" type="email">
                 </article>
-                <article>
-                    <p>Contraseña:</p>
-                    <input type="password">
+                <article class="login__item2">
+                    <p class="login__text">Contraseña:</p>
+                    <input class="login__input" type="password">
                 </article>
-                <article>                    
-                    <a href="#">Ingresar</a>
-                    <input type="checkbox">
-                    <p>Recordarme</p>
+                <article class="login__item3">                    
+                    <a class="login__log" href="#">Ingresar</a>
+                    <div class="login__subitem">                        
+                        <input class="login__checkbox" type="checkbox">
+                        <p class="login__remindme">Recordarme</p>
+                    </div>
                 </article>
-                <a href="#">Olvidé mi contraseña</a>
+                <a class="login__forgotpw" href="#">Olvidé mi contraseña</a>
             </form>
         </main>
     <!-- FOOTER -->
