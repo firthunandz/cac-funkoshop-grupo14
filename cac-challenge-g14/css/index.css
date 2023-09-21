@@ -807,7 +807,7 @@ footer{
     height: 3rem;
 }
 
-/* CREATE ITEM */
+/* CREATE ITEM  & EDIT*/
 
 .create{
     margin: var(--spacing-36) auto;
@@ -833,7 +833,11 @@ footer{
     resize: none;
 }
 
-
+.create__selected--img{
+    height: 15rem;
+    width: 15rem;
+    border-bottom: var(--primary-solid) 2px solid;
+}
 
 
 /* ANIMATIONS */
